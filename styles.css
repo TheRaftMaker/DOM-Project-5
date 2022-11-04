@@ -41,6 +41,7 @@ input {
     padding: 5px;
 }
 
+
 #add-task {
 
     flex: 0.5;
@@ -113,4 +114,80 @@ input {
 .deleteTask:hover {
     color: black;
     background-color: red;
+}
+
+
+@media (max-width: 1611px) {
+    #add-task-container {
+        width: 350px;
+        padding: 20px 10px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 0 3px;
+        margin-bottom: 20px;
+        margin-top: 35px;
+        /* margin-right: 300px; */
+        margin-left: 900px;
+        display: flex;
+    }
+}
+
+@media (max-width: 1335px) {
+    #add-task-container {
+        width: 350px;
+        padding: 20px 10px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 0 3px;
+        margin-bottom: 20px;
+        margin-top: 35px;
+        /* margin-right: 300px; */
+        margin-left: 700px;
+        display: flex;
+    }
+}
+
+@media (min-width: 2485px) {
+    #add-task-container {
+        width: 350px;
+        padding: 20px 10px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 0 3px;
+        margin-bottom: 20px;
+        margin-top: 35px;
+        /* margin-right: 300px; */
+        margin-left: 1600px;
+        display: flex;
+    }
+}
+
+@media (min-width: 2895px) {
+    #add-task-container {
+        width: 350px;
+        padding: 20px 10px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 0 3px;
+        margin-bottom: 20px;
+        margin-top: 35px;
+        /* margin-right: 300px; */
+        margin-left: 1900px;
+        display: flex;
+    }
+}
+
+@media (min-width: 3815px) {
+    #add-task-container {
+        width: 350px;
+        padding: 20px 10px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 0 3px;
+        margin-bottom: 20px;
+        margin-top: 35px;
+        /* margin-right: 300px; */
+        margin-left: 2700px;
+        display: flex;
+    }
 }
